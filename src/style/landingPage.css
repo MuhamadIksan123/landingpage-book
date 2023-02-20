@@ -1,0 +1,53 @@
+.intro {
+    height: 100vh;
+    background: url('../assets/buku/bg/library.jpg');
+    background-size: cover;
+}
+
+.introBook {
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px black;
+}
+
+.novel {
+    height: auto;
+    background: url('../assets/buku/bg/novel.jpg');
+    background-size: cover;
+}
+
+.komik {
+    height: auto;
+    background: url('../assets/buku/bg/komik.jpg');
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.images {
+    height: 500px;
+}
+
+.imageBook {
+    height: auto;
+    background: color;
+    padding: 5px;
+    margin: 5px;
+}
+
+.footer {
+    background: #1e2329;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}

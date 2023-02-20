@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import NavigationBar from './components/NavigationBar';
+import Intro from './components/Intro';
+import Novel from './components/Novel';
+import Komik from './components/Komik';
+import Footer from './components/Footer';
+import './style/landingPage.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="intro">
+        <NavigationBar />
+        <Intro />
+      </div>
+
+      <div className="novel">
+        <Novel />
+      </div>
+
+      <div className="komik">
+        <Komik />
+      </div>
+
+      <div className='footer'>
+        <Footer />
+      </div>
     </div>
   );
 }
