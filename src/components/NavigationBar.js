@@ -9,7 +9,6 @@ const NavigationBar = () => {
           <Nav>
             <Nav.Link href="#novel">Novel</Nav.Link>
             <Nav.Link href="#komik">Komik</Nav.Link>
-            
           </Nav>
         </Container>
       </Navbar>
