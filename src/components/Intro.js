@@ -1,4 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 
 const Intro = () => {
   return (
@@ -8,6 +8,9 @@ const Intro = () => {
           <Col>
             <div className="title">BACA BUKU</div>
             <div className="title">GAK PAKE BELI DULU</div>
+            <div className="introButton mt-4">
+              <Button variant="dark">Lihat Semua List</Button>
+            </div>
           </Col>
         </Row>
       </Container>
