@@ -14,7 +14,7 @@ const Novel = () => {
           <h1 className="text-white">Novel Books</h1>
           <br />
           <Row>
-            <Col md={4}>
+            <Col md={4} id="novel">
               <Card className="imageBook">
                 <Image src={dilan} alt="Card image" className="images" />
                 <div className="bg-dark">

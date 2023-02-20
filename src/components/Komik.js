@@ -14,7 +14,7 @@ const Komik = () => {
         <h1 className="text-white">Comic Books</h1>
         <br />
         <Row>
-          <Col md={4}>
+          <Col md={4} id="komik">
             <Card className="imageBook">
               <Image src={bokunohero} alt="Card image" className="images" />
               <div className="bg-dark">
